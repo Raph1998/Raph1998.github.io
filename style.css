@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+
+	font-family:"Lato","Abril Fat face";
+}
+
+h1
+{
+	color: green;
+	font-family: "Lato","sans-serif;"
+}
+
+body{
+	margin: 0 auto;
+	background-size: cover;
+
+}
+
+{
+	background-color: white;
+}
+
+section.top-page{
+background:url(https://img.freepik.com/photos-gratuite/foret-sombre-brumeuse-brouillard-smog-nature-foret-sauvage-paysage-forestier-foret-sombre-vue-nuit_129911-261.jpg?w=1380) ;
+height: 80vh;
+background-size : cover;
+
+}
+header.header {
+display: flex;
+flex-wrap:wrap ;
+align-items: center;
+background-color: green;
+}
+
+.Big-Title {
+	font-size: 40px;
+	position: absolute;
+	bottom: 600px;
+	margin-left: 50px;
+
+
+}
+
+.Title2 {
+	color: red;
+	position: absolute;
+	bottom: 570px;
+	margin-left: 50px;
+}
+
+.Text1 {
+	color: white;
+	position: absolute;
+	bottom: 450px;
+	margin-left: 50px;
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+
+header.header img 
+{
+	width: 170px;
+
+}
+
+
+
+/* menu de navigation */
+
+.landing-page {
+	padding: 25px;
+}
+
+nav.nav {
+	display: flex;
+	list-style: none;
+	width: 1000px;
+	margin-left: 50px;
+	justify-content: space-between;
+	text-decoration: none;
+
+}
+
+nav.nav li {
+	color: white;
+	text-decoration: none;
+
+
+
+
